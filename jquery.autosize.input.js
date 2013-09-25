@@ -103,8 +103,5 @@ var Plugins;
             });
         };
 
-        $(function () {
-            $("input[data-" + pluginDataAttributeName + "]").autosizeInput();
-        });
     })(jQuery);
 })(Plugins || (Plugins = {}));
